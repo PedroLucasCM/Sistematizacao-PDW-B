@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Santa Clara</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Clínica Santa Clara</h1>
+      <p>Cuidando da sua saúde com excelência</p>
+    </header>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <section id="servicos">
+      <h2>Nossos Serviços</h2>
+      <p>
+        Aqui na Clínica Santa Clara oferecemos uma ampla variedade de
+        especialidades. A seguir, você poderá escolher qual especialidade que
+        desejar agendar sua consulta.
+      </p>
+      <div class="servicos">
+        <div class="servico">
+          <img src="./assets/consultas-medicas.webp" alt="Consulta Médica" />
+          <h3>Consulta Médica</h3>
+          <p>
+            Atendimento personalizado com especialistas em clínica geral,
+            cardiologia e mais.
+          </p>
+        </div>
+        <div class="servico">
+          <img
+            src="./assets/exames-laboratoriais.jpeg"
+            alt="Exames Laboratoriais"
+          />
+          <h3>Exames Laboratoriais</h3>
+          <p>
+            Realizamos exames laboratoriais com resultados rápidos e precisos.
+          </p>
+        </div>
+        <div class="servico">
+          <img src="./assets/cardiologia.jpeg" alt="Cardiologia" />
+          <h3>Cardiologia</h3>
+          <p>
+            Atendimento especializado com exames para cuidar da saúde do seu
+            coração.
+          </p>
+        </div>
+        <div class="servico">
+          <img src="./assets/nutricionista.png" alt="Nutricionista" />
+          <h3>Nutricionista</h3>
+          <p>
+            Planos alimentares personalizados para controle de peso e saúde,
+            hábitos saudáveis e qualidade de vida.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="equipe">
+      <h2>Nossa Equipe</h2>
+      <p>
+        Conheça a nossa equipe de profissionais pronta para atender a vocês!
+      </p>
+      <div class="equipe">
+        <div class="membro">
+          <img src="./assets/carlos-silva.jpg" alt="Dr. Carlos" />
+          <h3>Dr. Carlos Silva</h3>
+          <p>Cardiologista - CRM/SP 12345</p>
+        </div>
+        <div class="membro">
+          <img src="./assets/ana-souza.jpg" alt="Dra. Ana" />
+          <h3>Dra. Ana Souza</h3>
+          <p>Clínica Geral - CRM/SP 67890</p>
+        </div>
+        <div class="membro">
+          <img src="./assets/pedro-lima.webp" alt="Dr. Pedro" />
+          <h3>Dr. Pedro Lima</h3>
+          <p>Nutricionista - CRN/SP 54321</p>
+        </div>
+        <div class="membro">
+          <img
+            src="./assets/enfermeira-beatriz.jpeg"
+            alt="Enfermeira Beatriz"
+          />
+          <h3>Beatriz Gonzaga</h3>
+          <p>Enfermeira - CRN/SP 87123</p>
+        </div>
+      </div>
+    </section>
+    <section id="contato">
+      <h2>Fique por Dentro</h2>
+      <p>
+        Se inscreva para receber notícias, newsletter e promoções de nossa
+        clínica!
+      </p>
+      <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required />
+
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado" required>
+          <option value="">Selecione...</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="SP">São Paulo</option>
+          <option value="RJ">Rio de Janeiro</option>
+        </select>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <footer>
+      <p>© 2025 Clínica Santa Clara. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
